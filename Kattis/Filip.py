@@ -1,0 +1,11 @@
+l=input().split()
+a=l[0]
+a=a[::-1]
+b=l[1]
+b=b[::-1]
+a=int(a)
+b=int(b)
+if(a<b):
+    print(b)
+else:
+    print(a)
